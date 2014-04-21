@@ -11,9 +11,6 @@ a = b
 ```
 
 At the end of this program, what are the values of a and b? Try to explain, in plain English, how you got your answer for each one. 
-```
-
-What is the value of a?
 
 ## Question 2
 
@@ -42,15 +39,15 @@ What is the difference between these two statements? Explain your answer.
 x = 2
 
 if x == 3
-	puts "sushi is tasty"
+  puts "sushi is tasty"
 elsif x > 0
-	puts "sushi is delicious"
+  puts "sushi is delicious"
 end
 ```
 
-Imagine that you take the code from this question, save it to a file called ``sushi.rb``, and run ``ruby sushi.rb`` in your Terminal. 
+Imagine that you take the code from this question, save it to a file called `sushi.rb`, and run `ruby sushi.rb` in your Terminal. 
 
-What would be the output?) Explain your answer. 
+What would be the output? Explain your answer. 
 
 ## Question 5
 
@@ -58,10 +55,10 @@ What would be the output?) Explain your answer.
 food = "walnut"
 
 if food == "walnut"
-	puts "I\'m allergic!"
+  puts "I'm allergic!"
 end
 ```
 
-Imagine that you take the code from this question, save it to a file called ``snack.rb``, and run ``ruby snack.rb`` in your Terminal. 
+Imagine that you take the code from this question, save it to a file called `snack.rb`, and run `ruby snack.rb` in your Terminal. 
 
 What would be the output? Explain your answer.
