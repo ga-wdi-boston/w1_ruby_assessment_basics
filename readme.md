@@ -3,7 +3,7 @@ Both variables a and b represent the value 4. the variable B was assigned this v
 
 Question 2:
 The value of variable e is 3
-The value of variable f was originally cast as a Fixnum with a of 9, but was later cast as a boolean (FalseClass).
+The value of variable f is 9.
 The value of variable g is 12 being the sum of the original value of variable e (3) and f (9)
 
 Question 3:
