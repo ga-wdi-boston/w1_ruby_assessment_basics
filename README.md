@@ -72,10 +72,3 @@ Imagine that you take the code from this question, save it to a file called `sna
 What would be the output? Explain your answer.
 
 The output here would be "I'm allergic!" because the variable food is set to the string 'walnut', and then there is a conditional statement that asks if food is currently equivalent to 'walnut'. This evaluates as true, so the code runs and then the program ends.
-
-
-
-
-
-
-
