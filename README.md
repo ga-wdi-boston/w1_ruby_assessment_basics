@@ -1,64 +1,32 @@
 # Ruby Assessment - Day 2
 
-Fork this repository, and clone the fork to your local computer. Edit this README.md file to contain the answers, and then make a pull request on Github to turn in the assessment. 
+Fork this repository, and clone the fork to your local computer. Edit this README.md file to contain the answers, and then make a pull request on Github to turn in the assessment.
 
 ## Question 1
 
-```ruby
-a = 5
+a = 4
 b = 4
-a = b
-```
 
-At the end of this program, what are the values of a and b? Try to explain, in plain English, how you got your answer for each one. 
+"b" has been stated as 4 and has not been changed.
+"a" has been re-stated to be equal to the value of "b"
 
 ## Question 2
 
-```ruby
 e = 3
 f = 9
-g = e + f
-f == g
-e = 3
-```
+g = 12
 
-At the end of this program, what are the values of e, f, and g? Try to explain, in plain English, how you got your answer for each one. 
+"e" has been stated as being equal to 3, at the beginning and end of the list. "f" is stated as being equal to 9 and then is mentioned in a boolean statement where its value is not changed. "g" is equal to the sum of "e" and "f".
 
 ## Question 3
 
-```ruby
-weather = "cloudy"
-weather == "cloudy" 
-```
-
-What is the difference between these two statements? Explain your answer. 
+weather = "cloudy" is declaring a variable. In the program weather now represents "cloudy".
+weather == "cloudy" is a compartive statement or boolean. This would compute as false because weather is not the same as "cloudy".
 
 ## Question 4
 
-```ruby
-x = 2
-
-if x == 3
-  puts "sushi is tasty"
-elsif x > 0
-  puts "sushi is delicious"
-end
-```
-
-Imagine that you take the code from this question, save it to a file called `sushi.rb`, and run `ruby sushi.rb` in your Terminal. 
-
-What would be the output? Explain your answer. 
+The output would be "sushi is delicious" because x is not 3, it is 2, and therefore greater than 0 (as in the esif statement).
 
 ## Question 5
 
-```ruby
-food = "walnut"
-
-if food == "walnut"
-  puts "I'm allergic!"
-end
-```
-
-Imagine that you take the code from this question, save it to a file called `snack.rb`, and run `ruby snack.rb` in your Terminal. 
-
-What would be the output? Explain your answer.
+The output would be "I'm allergic!" because, in this case, food has been declared as a variable equal to "walnut" and in the if statement the condition reads as true since "walnut" is the same as "walnut".
